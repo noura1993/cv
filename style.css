@@ -2,220 +2,229 @@ html{
     height: 100%;
   }
   
-  body{
-    margin: 0;
-    height: 100%;
-    font-family: cursive;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .topnav a {
-      float: none;
-      width: 100%;
-    }
-  }
-  
-  #navbar{
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    text-align: center;
-    top: 0;
+body{
+  margin: 0;
+  height: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
     width: 100%;
-    z-index: 100;
   }
-  
-  .nav-inner-container {
-    display: inline-block;
-    max-height: 48px;
-  }
-  
-  #navbar a{
-    float: left;
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  #navbar a:hover {
-    background-color: turquoise;
-    color: white;
-  }
-  
-  .top-img {
-    background-image: url(./portofolio.m.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    opacity: 0.8;
-  }
-  
-  .intro {
-    height: 100vh;
-  }
-  
-  h1{
-    color: white;
-    margin-top: 250px;
-    font-size: 70px;
-    display: inline-block;
-    border-bottom: 1px solid;
-    margin-bottom: 2px;
-  }
-  
-  .resume{
-    margin-top: 1px;
-    color: white;
-    font-size: 30px;
-  }
-  
-  h2{
-    text-align: center;
-    color: #22A39F;
-    font-size: 50px;
-    font-weight: 5;
-    margin-bottom: 5px;
-  }
-  
-  #Profile{
-    text-align: center;
-    font-size: 21px;
-    color: #727878;
-  }
-  
-  hr{
-    margin-left: 265px;
-    margin-right: 265px;
-    border-color: #727878;
-    border-bottom: 1px solid #eee;
-    opacity: 0.2;
-  }
-  
-  .main-div{
-    text-align: center;
-    display: block;
-  }
-  
-  .box-container{
-    display: block;
-  }
-  
-  .left-box{
-    min-width: 250px;
-    width: 20%;
-    text-align: justify;
-    display: inline-block;
-    font-size: 15px;
-  }
-  
-  .center-box{
-    min-width: 250px;
-    width: 20%;
-    text-align: center;
-    display: inline-block;
-  }
-  
-  #profile-img{
-    border-radius: 50%;
-  }
-  
-  .right-box{
-    min-width: 250px;
-    width: 20%;
-    text-align: justify;
-    display: inline-block;
-  }
-  
-  h3{
-    color: #22A39F;
-    font-size: 25px;
-    font-weight: 50;
-  }
+}
 
-  .leftAligned{
-    width: 20%;
-    display: inline-block;
-    text-align: left;
-    vertical-align: top;
-  }
+#navbar{
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
 
-  .rightAligned{
-    width: 40%;
-    display: inline-block;
-    text-align: left;
-    vertical-align: top;
-  }
-
-  .experience-header {
-    width: 60%;
-    text-align: left;
-    display: inline-block;
-  }
-
-  ul{
-    list-style: none;
-  }
-
-  .colored-bullets 
-  li::before{
-    content: '•';
-    color: #22A39F;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-  }
-
-  button{
-    cursor: pointer;
-    width: 3rem;
-    padding: .3rem;
-    border-radius: 54px;
-    background-color: #22A39F;
-    text-align: center;
-    font-size: .75rem;
-    transition: background-color .25s;
-    border: 0px;
-    color: #fff;
-    font-weight: 500;
-  }
-
-  button:hover{
-    background-color: turquoise;
-  }
-
-  .contact{
-    background-color: #333;
-  }
-
- .icon-linkedin{
+.nav-inner-container {
   display: inline-block;
-  background: url(./linkedin_icon.svg.png) no-repeat;
+  max-height: 48px;
+}
+
+#navbar a{
+  float: left;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#navbar a:hover {
+  background-color: #22A39F;
+  color: white;
+}
+
+.top-img {
+  background-image: url(./blue.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  /* opacity: 0.8; */
+}
+
+.intro {
+  height: 100vh;
+}
+
+h1{
+  color: rgb(255, 253, 253);
+  margin-top: 300px;
+  font-size: 70px;
+  display: inline-block;
+  border-bottom: 1px solid;
+  margin-bottom: 2px;
+}
+
+.resume{
+  margin-top: 1px;
+  color: rgb(255, 253, 253);
+  font-size: 30px;
+}
+
+h2{
+  text-align: center;
+  color: #22A39F;
+  font-size: 50px;
+  font-weight: 5;
+  margin-bottom: 5px;
+}
+
+#Profile{
+  text-align: center;
+  font-size: 21px;
+  color: #727878;
+}
+
+hr{
+  margin-left: 265px;
+  margin-right: 265px;
+  border-color: rgb(204, 194, 194);
+  border-bottom: 1px solid #eee;
+  opacity: 0.2;
+}
+
+.main-div{
+  text-align: center;
+  display: block;
+}
+
+.box-container{
+  display: block;
+}
+
+.left-box{
+  min-width: 250px;
+  width: 20%;
+  text-align: justify;
+  color: black;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.center-box{
+  min-width: 250px;
+  width: 20%;
+  text-align: center;
+  display: inline-block;
+}
+
+#profile-img{
+  border-radius: 50%;
+}
+
+.right-box{
+  min-width: 250px;
+  width: 20%;
+  text-align: justify;
+  color: black;
+  display: inline-block;
+  font-size: 15px;
+}
+
+h3{
+  color: #22A39F;
+  font-size: 25px;
+  font-weight: 50;
+}
+
+.leftAligned{
+  width: 20%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  text-align: justify;
+}
+
+.rightAligned{
+  width: 40%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  margin-left: 50px;
+  text-align: justify;
+}
+
+.experience-header {
+  width: 64%;
+  text-align: left;
+  display: inline-block;
+  left: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+.colored-bullets 
+li::before{
+  content: '•';
+  color: #22A39F;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+button{
+  cursor: pointer;
+  width: 3rem;
+  padding: .3rem;
+  border-radius: 54px;
+  background-color: #22A39F;
+  text-align: center;
+  font-size: .75rem;
+  transition: background-color .25s;
+  border: 0px;
+  color: #fff;
+  font-weight: 500;
+  outline: none;
+}
+
+button:hover{
+  background-color: turquoise;
+}
+
+.contact{
+  background-color: #333;
+}
+
+.icon-linkedin{
+display: inline-block;
+background: url(./linkedin_icon.svg.png) no-repeat;
+background-size: contain;
+height: 60px;
+width: 60px;
+margin-bottom: 4em;
+}
+
+.icon-github{
+  display: inline-block;
+  background: url(./github-512.png) no-repeat;
   background-size: contain;
   height: 60px;
   width: 60px;
   margin-bottom: 4em;
   }
 
-  .icon-github{
-    display: inline-block;
-    background: url(./github-512.png) no-repeat;
-    background-size: contain;
-    height: 60px;
-    width: 60px;
-    margin-bottom: 4em;
-    }
-
-    .icon-gmail{
-      display: inline-block;
-      background: url(./gmail-512.png) no-repeat;
-      background-size: contain;
-      height: 60px;
-      width: 60px;
-      margin-bottom: 4em;
-      }
+.icon-gmail{
+  display: inline-block;
+  background: url(./gmail-512.png) no-repeat;
+  background-size: contain;
+  height: 60px;
+  width: 60px;
+  margin-bottom: 4em;
+  }
