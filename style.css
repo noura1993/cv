@@ -101,39 +101,42 @@ hr{
 .main-div{
   text-align: center;
   display: block;
+  justify-content: center;
 }
 
 .box-container{
   display: block;
 }
 
+.flex-box-container{
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  padding: 15px;
+}
+
 .left-box{
-  min-width: 250px;
   width: 20%;
+  justify-content: center;
   text-align: justify;
-  color: black;
-  display: inline-block;
-  font-size: 15px;
+  padding: 15px;
 }
 
 .center-box{
-  min-width: 250px;
   width: 20%;
-  text-align: center;
-  display: inline-block;
+  padding: 15px;
 }
 
 #profile-img{
   border-radius: 50%;
+  flex: 1 1 auto;
+  padding: 15px;
 }
 
 .right-box{
-  min-width: 250px;
   width: 20%;
   text-align: justify;
-  color: black;
-  display: inline-block;
-  font-size: 15px;
+  padding: 15px;
 }
 
 h3{
